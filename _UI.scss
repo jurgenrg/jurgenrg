@@ -1,12 +1,17 @@
 html {}
 
 body {
-  background-color: $negro;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c922a2+0,7f0057+50,ad4bea+100 */
+background: #c922a2; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #c922a2 0%, #7f0057 50%, #ad4bea 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #c922a2 0%,#7f0057 50%,#ad4bea 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #c922a2 0%,#7f0057 50%,#ad4bea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c922a2', endColorstr='#ad4bea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .contenedor-estetica {
   @include tablet {
-    height: 100vh;
+  //  height: 150vh;
     @include grid(2, $separacion);
   }
 

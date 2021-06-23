@@ -1,0 +1,55 @@
+.invalidar-cita {
+  text-align: center;
+  padding: 10rem 0 25rem 0;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.contenido-resumen {
+  margin-bottom: $separacion / 2 0;
+
+  p {
+    margin-bottom: 0.5rem;
+
+    span {
+      font-weight: $bold;
+      color: $white;
+      font-size: 2.4rem;
+    }
+  }
+
+  .resumen-servicios {
+
+    h3 {
+      margin: $separacion / 2 0;
+    }
+
+    .contenedor-servicio {
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #43453c;
+      .precio {
+        font-weight: $bold;
+        color: $white;
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+.total {
+  text-align: right;
+  padding: $separacion / 2;
+}
+
+.cantidad {
+  color: $amarillo;
+  font-weight: $bold;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
