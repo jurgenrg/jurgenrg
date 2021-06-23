@@ -1,56 +1,64 @@
-let data =[
-  {
+{
     "servicios": [
         {
             "id": 1,
-            "nombre": "Corte de Cabello Adulto",
-            "precio": 80
+            "nombre": "Corte de Cabello Mujer",
+            "precio": 250
         },
         {
             "id": 2,
-            "nombre": "Corte de Cabello Niño",
-            "precio": 60
+            "nombre": "Corte de Cabello Niña",
+            "precio": 250
         },
         {
             "id": 3,
-            "nombre": "Corte de Cabello Mujer",
-            "precio": 100
+            "nombre": "Brouching",
+            "precio": 300
         },
         {
             "id": 4,
-            "nombre": "Corte de Barba",
+            "nombre": "Uñas Acrílicas",
             "precio": 100
         },
         {
             "id": 5,
-            "nombre": "Peinado Hombre",
-            "precio": 60
+            "nombre": "Mantenimineto Uñas",
+            "precio": 150
         },
         {
             "id": 6,
             "nombre": "Peinado Mujer",
-            "precio": 100
+            "precio": 200
         },
         {
             "id": 7,
             "nombre": "Tinte",
-            "precio": 300
+            "precio": 1500
         },
         {
             "id": 8,
-            "nombre": "Uñas",
-            "precio": 400
+            "nombre": "Depilación con Cera",
+            "precio": 1200
         },
         {
             "id": 9,
             "nombre": "Lavado de Cabello",
-            "precio": 50
+            "precio": 200
         },
         {
             "id": 10,
             "nombre" : "Tratamiento Capilar",
-            "precio": 150
+            "precio": 250
+        },
+        {
+            "id": 11,
+            "nombre" : "Pedicura",
+            "precio": 250
+        },
+        {
+            "id": 12,
+            "nombre" : "Servicio de Maquillaje",
+            "precio": 250
         }
     ]
 }
-];
